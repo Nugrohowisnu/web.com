@@ -170,18 +170,18 @@ a {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	background: grey;
+	background: blue;
 	right: 50px;
 	text-decoration: none;
 	text-align: center;
 	line-height: 50px;
-	color: red;
+	margin-top: -40px;
     z-index: 10000;
 }
 .fa-chevron-circle-up{
-    font-size: 20px;
+    font-size: 50px;
     line-height: 50px;
-    color: red;
+    color: grey;
 }
   
   /* End Top */
@@ -439,6 +439,9 @@ html {
     }
 }
 @media (max-width: 840px) {
+	.up-icon {
+    margin-top: -60px;
+    }
     .banner-left {
         padding-left: 50px;
     }
@@ -462,6 +465,9 @@ html {
 }
 
 @media (max-width: 590px) {
+	.up-icon {
+   	 margin-top: -100px;
+    }
     .sidebar {
         
         left: -350px;
